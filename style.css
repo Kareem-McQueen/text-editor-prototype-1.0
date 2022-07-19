@@ -1,1 +1,41 @@
 
+.container{
+    height: 706px;
+    width: 860px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid white;
+
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    color: purple;
+    text-align: center;
+    opacity: 60%;
+}
+
+
+.toolbox_nav{
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    opacity: 70%;
+}
+
+li{
+    display:inline;
+}
+
+.textarea textarea{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-left: 81px;
+    margin-top: 10px;
+    border: 6px solid purple;
+    outline: none;
+
+}

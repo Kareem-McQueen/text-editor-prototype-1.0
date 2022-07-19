@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+
+
+
+    ">
     <title>Document</title>
 </head>
 
@@ -17,22 +22,38 @@
 
 
 
-    <h1>text editor</h1>
 
-    <div>
-        <button id="bold" onclick="bold()">BOLD</button>
-        <button id="italic" onclick="italic()">ITALIC</button>
-        <button id="leftAlign" onclick="la()">LEFT ALIGN</button>
-        <button id="rightAlign" onclick="ca()">CENTER ALIGN</button>
-        <button id="rightAlign" onclick="ra()">BOLD</button>
-        <button id="upperCase"onclick="uppercase()">UPPERCASE</button>
-        <button id="lowerCase" onclick="lowercase()">LOWERCASE</button>
-        <button id="capitalize" onclick="capitalize()">CAPITALIZE</button>
-        <button id="clearText" onclick="cleartext()">CLEAR TEXT</button>
+
+
+    <div class="container">
+    <h1>TEXT EDITOR</h1>
+    <div class="toolbox_nav">
+        <ul>
+            <li><button id="bold" onclick="bold()">BOLD</button></li>
+            <li></li><button id="italic" onclick="italic()">ITALIC</button></li>
+            <li><button id="leftAlign" onclick="la()">LEFT ALIGN</button></li>
+            <li><button id="rightAlign" onclick="ca()">CENTER ALIGN</button></li>
+            <li><button id="rightAlign" onclick="ra()">BOLD</button></li>
+            <li><button id="upperCase"onclick="uppercase()">UPPERCASE</button></li>
+            <li><button id="lowerCase" onclick="lowercase()">LOWERCASE</button></li>
+            <li><button id="capitalize" onclick="capitalize()">CAPITALIZE</button></li>
+            <li><button id="clearText" onclick="cleartext()">CLEAR TEXT</button></li>
+
+
+        </ul>
+        
     </div>
-    <textarea id="textarea"placeholder="ENTER TEXT">
 
-    </textarea>
+        
+        <div class="textarea">
+            <textarea id="textarea"placeholder="ENTER YOUR TEXT HERE..."></textarea>
+       </div>
+
+       
+    </div>
+    
+
+       
 
 
 
